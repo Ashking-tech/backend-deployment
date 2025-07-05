@@ -1,5 +1,46 @@
+# Node modules
+node_modules/
 
-.node_modules/
+# Environment variables
 .env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage reports
+coverage/
+
+# Optional npm cache directory
+.npm/
+
+# Local env files
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+
+# IDE folders
 .vscode/
 .idea/
+
+# Mac system files
+*.DS_Store
+
+# Linux/mac temporary files
+*.swp
